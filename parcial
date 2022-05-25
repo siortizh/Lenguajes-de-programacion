@@ -3,5 +3,4 @@ sumaCuadrados1 x y z = x * x + y * y + z * z
 sumaCuadrados x y = x * x + y * y
 multiplicacionCuadrados x y = x^2 * y^2
 potenciaDeNumero x y = x^y
-main = do 
-  print ()
+
