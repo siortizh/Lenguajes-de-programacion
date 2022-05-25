@@ -1,0 +1,15 @@
+--Potenciacion: contiene suma de cuadrados de hasta tres numeros enteros positivos, multiplicacion de cuadrados y la potencia de x elevado a un numero n
+sumaCuadrados1 x y z = x * x + y * y + z * z
+sumaCuadrados x y = x * x + y * y
+multiplicacionCuadrados x y = x^2 * y^2
+potenciaDeNumero x y = x^y
+
+main = do 
+  putStrnLn "La suma de dos números elevados al cuadrado es:"
+  print (sumaCuadrados 8 5)
+  putStrnLn "La suma de tres números elevados al cuadrado es:"
+  print (sumaCuadrados1 2 5 8)
+  putStrnLn "La multiplicación de dos números elevados al cuadrado es:"
+  print (multiplicacionCuadrados 3  5)
+  putStrnLn "La potencia de un número x elevado a un número n y es:"
+  print (potenciaDeNumero 2 8)
