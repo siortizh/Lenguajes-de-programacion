@@ -1,3 +1,4 @@
+--suma de cuadrados de hasta 3 numeros 
 sumaCuadrados1 x y z = x * x + y * y + z * z
 sumaCuadrados x y = x * x + y * y 
 main = do 
