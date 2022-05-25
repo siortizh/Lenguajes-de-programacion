@@ -1,0 +1,4 @@
+sumaCuadrados x y = x * x + y * y
+
+main = do 
+print (sumaCuadrados 8 5)
