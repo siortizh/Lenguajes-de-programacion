@@ -1,0 +1,9 @@
+main = do 
+  putStrnLn "La suma de dos números elevados al cuadrado es:"
+  print (sumaCuadrados 8 5)
+  putStrnLn "La suma de tres números elevados al cuadrado es:"
+  print (sumaCuadrados1 2 5 8)
+  putStrnLn "La multiplicación de dos números elevados al cuadrado es:"
+  print (multiplicacionCuadrados 3  5)
+  putStrnLn "La potencia de un número x elevado a un número y es:"
+  print (potenciaDeNumero 2 8)
