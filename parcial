@@ -1,7 +1,7 @@
---suma de cuadrados de hasta 3 numeros 
+--Potenciacion: contiene suma de cuadrados de hasta tres numeros enteros, multiplicacion de cuadrados y la potencia de x elevado a un numero n
 sumaCuadrados1 x y z = x * x + y * y + z * z
-sumaCuadrados x y = x * x + y * y 
+sumaCuadrados x y = x * x + y * y
+multiplicacionCuadrados x y = x^2 * y^2
+potenciaDeNumero x y = x^y
 main = do 
-print (sumaCuadrados 8 5)
-print (sumaCuadrados 7 2)
-print (sumaCuadrados1 2 5 8)
+  print ()
