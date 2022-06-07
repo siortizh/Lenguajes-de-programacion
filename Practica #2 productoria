@@ -1,0 +1,27 @@
+C:\Users\juana\PycharmProjects\pythonProject\venv\Scripts\python.exe C:/Users/juana/PycharmProjects/pythonProject/main.py
+  7           0 LOAD_GLOBAL              0 (range)
+              2 LOAD_CONST               1 (-1)
+              4 LOAD_CONST               2 (3)
+              6 CALL_FUNCTION            2
+              8 GET_ITER
+        >>   10 FOR_ITER                10 (to 32)
+             12 STORE_FAST               0 (i)
+
+  8          14 LOAD_FAST                1 (productoria)
+             16 LOAD_FAST                0 (i)
+             18 LOAD_CONST               3 (5)
+             20 BINARY_XOR
+             22 BINARY_MULTIPLY
+             24 LOAD_CONST               4 (2)
+             26 BINARY_XOR
+             28 STORE_FAST               1 (productoria)
+             30 JUMP_ABSOLUTE            5 (to 10)
+
+ 10     >>   32 LOAD_GLOBAL              1 (print)
+             34 LOAD_FAST                1 (productoria)
+             36 CALL_FUNCTION            1
+             38 POP_TOP
+             40 LOAD_CONST               0 (None)
+             42 RETURN_VALUE
+
+Process finished with exit code 0
